@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("./2023-10-13\ 08.29.43.jpg");
+    background-size: 110% ;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
+}
+h2{
+    position: relative;
+    left: 30px;
+    font-family:'';
+    color: #ffffffdc;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+
+}
+form {
+    width: 560px;
+    min-height: 450px;
+    height: 650px;
+    border-radius: 25px;
+    margin: 2% auto;
+    padding: 3%;
+   background-color: #d6402250;
+   position: relative;
+   top: 105px;
+   left: 20px;
+}   
+
+
+.input-item {
+    background: #ffffff43;
+    color: #000000;
+}
+input{
+    width: 390px;
+    height: 45px;
+    border-radius:25px;
+    border: none;
+    outline: none;
+    text-align:center;
+    background-color: #ffffff;
+    
+    
+}
+.pass{
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+.email{
+    position: relative;
+    top: 42px;
+    left: 25px;
+    width: 50px\;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn-fp{
+    position: relative;
+    top: 142px;
+    left: 40px;
+}
+.btn-sub{
+    position: relative;
+    font-size: rem;
+    top: 123px;
+    left: 350px;
+}
+#fp,#sp{
+  font-size: 1rem;
+}
+#fp:hover{
+  text-decoration: underline;
+}
+#sp:hover{
+  text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  .but{
+    background-color: #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -20px;
+    width: 190px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+  }
+  .coolBeans {
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 100;
+    overflow: hidden;
+    padding-left: 44px;
+    padding-top: 10px;
+    position: relative;
+    left: 80px;
+    top: 70px;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+    height: 55px;
+    width: 180px;
+  }
+  .coolBeans::after {
+    background-color: rgba(255, 0, 0, 0.782);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+  }
+  .coolBeans:hover::after {
+    transform: translate(0, 0);
+  }
+  .coolBeans:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+  }

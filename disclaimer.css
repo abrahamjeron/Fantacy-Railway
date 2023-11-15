@@ -1,0 +1,90 @@
+*{
+    font-family: 'Goldman', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("./31758932643.jpg") ;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.navigation{
+    height: 60px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 40px;
+    bottom: 63px;
+}
+h1{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    color:#FFC6C6;
+    font-family: 'Lily Script One', cursive;
+    font-size: 2.5rem;
+}
+#home,#aboutus,#login,#contactus{
+    color: #A6D98F;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#contactus{
+    position: relative;
+    top: 22px;
+    right: 15px;
+}
+#home{
+    position: relative;
+    right: 60px;
+}
+#aboutus{
+    position: relative;
+    right: 35px;
+}
+.login{
+    background: linear-gradient(269deg, #BB2714 0.23%, rgba(255, 255, 255, 0.00) 141.55%);
+    border-radius: 15px;
+    height: 45px;
+    position: relative;
+    top: 15px;
+    width: 120px;
+
+}
+#login{
+    position: relative;
+    bottom: 20px;
+    left: 26px;
+}
+#description{
+    position: relative;
+    top: 300px;
+    color: #A6D98F;
+    text-align: center;
+    font-size: 3rem;
+}
+#enter{
+    position: relative;
+    top: 300px;
+    left: 681px;
+    background: linear-gradient(269deg, #BB2714 0.23%, rgba(255, 255, 255, 0.00) 141.55%);
+    padding-left: 25px;
+    padding-right: 45px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #F5FBB6;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+#enterimg{
+    position: relative;
+    left:20px;
+    top: 5px;
+    height: 30px;
+}
+#enter:hover{
+    border-radius: 25px;
+    background-color: red;
+}

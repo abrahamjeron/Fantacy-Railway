@@ -1,0 +1,146 @@
+*{
+    font-family: 'Goldman', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("./selection\ pge1.png");
+    background-size: 100%;
+    background-position: fixed;
+    
+}
+.navigation{
+    height: 60px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 60px;
+    bottom: 93px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    color:#FFC6C6;
+    font-family: 'Lily Script One', cursive;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+h2{
+    color: #F5FBB6;
+    font-size: 3rem;
+    font-weight: 80%;
+    position: relative;
+    left: 32%;
+}
+#home,#aboutus,#login,#contactus{
+    color: #A6D98F;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#contactus{
+    position: relative;
+    top: 22px;
+    right: 15px;
+}
+#home{
+    position: relative;
+    right: 60px;
+}
+#aboutus{
+    position: relative;
+    right: 35px;
+}
+#profile{
+    position: relative;
+    top: 9px;
+    height: 40px;
+}
+.harrypotter{
+    background-color: #FBE7A1;
+    height: 310px;
+    width: 330px;
+    border-radius: 10px;
+}
+#harrypotterimg{
+    position: relative;
+    height: 218px;
+    right: 2px;
+    border-radius: 10px 10px 0px 0px;
+}
+.infoa{
+    position: relative;
+    background-color: #FBE7A1;
+    bottom: 30px;
+    height: 118px;
+    border-radius: 10px;
+}
+#harrypottertext,#explorebtn{
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+#harrypottertext{
+    color: #000;
+    font-size:1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+#explorebtn{
+    position: relative;
+    left: 50px;
+    top: 21px;
+    color: rgba(0, 0, 0, 0.53);
+    font-family: Maven Pro;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+#compassimg{
+    position: relative;
+    height: 30px;
+    right: 15px;
+    top: 8px;
+}
+#explorebtn:hover{
+    text-decoration:underline ;
+}
+#piratesimg{
+    position: relative;
+    height: 212px;
+    width: 331px;
+    border-radius: 10px;
+}
+#marvelimg{
+    position: relative;
+    height: 217px;
+    border-radius: 10px;
+}
+.movies-rows1{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.movies-row2{
+    position: relative;
+    top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+#disneyimg{
+    position: relative;
+    height: 218px;
+    border-radius: 10px;
+}
+#gotimg{
+    position: relative;
+    height:215px ;
+    border-radius: 10px;
+}

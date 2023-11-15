@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+#logo{
+    position: relative;
+    text-decoration: none;
+    top: 25px;
+    left: 30px;
+    color:#FFC6C6;
+    font-family: 'Lily Script One', cursive;
+    font-size: 2.5rem;
+}
+body{
+    background-image: url("./a33\ 1.pdf");
+    background-size: cover;
+}
+form{
+    position: relative;
+    left: 440px;
+    background-color: rgba(172, 61, 0, 0.40);
+    height: 750px;
+    width: 780px;
+}
+h1{
+    position: relative;
+    top: 20px;
+    left: 37%;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.arrival{
+    position: relative;
+    left: 90px;
+    top: 35px;
+}
+.arrival label{
+    color: white;
+    font-size: 2rem;
+}
+.arrival input{
+    width: 230px;
+    height: 20px;
+}
+.date{
+    position: relative;
+    left:530px;
+    bottom: 30px;
+}
+.date label{
+    color: white;
+    font-size: 2rem;
+}
+.date input{
+    width: 150px;
+    height: 20px;
+}
+.destination{
+    position: relative;
+    left:90px;
+    top: 60px;
+    bottom: 30px;
+}
+.destination label{
+    color: white;
+    font-size: 2rem;
+}
+#destination{
+    width: 230px;
+    height: 30px;
+}
+#seater,#sleeper,#ac{
+    font-size: 2rem;
+}
+.classes{
+    position: relative;
+    left:530px;
+    bottom: 10px;
+}
+.classes label{
+    color: white;
+    font-size: 2rem;
+}
+#classes{
+    width: 130px;
+    height: 30px;
+}
+.passengers{
+    position: relative;
+    left:300px;
+    top: 60px;
+}
+.passengers label{
+    color: white;
+    font-size: 2rem;
+}
+#passengers{
+    width: 220px;
+    height: 20px;
+}
+.checkbox{
+    position: relative;
+    left:160px;
+    top: 140px;
+}
+#flexi{
+    color: white;
+    font-size: 1.2rem;
+}
+#insurance{
+    position: relative;
+    left: 140px;
+    color: white;
+    font-size: 1.2rem;
+}
+#next{
+    position: relative;
+    top: 230px;
+    left: 550px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgba(113, 202, 0, 0.92);
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#back{
+    position: relative;
+    top: 230px;
+    color: white;
+    font-size: 1.2rem;
+    border: 3px rgba(255, 89, 0, 0.4) solid;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
